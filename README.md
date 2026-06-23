@@ -42,9 +42,4 @@ This project implements a Spring Boot backend service with:
   - Sequence of requests.  
   - Concurrency test.  
 
-## How to Run
-1. Configure Redis connection in `application.properties`.
-2. Set rate limiter properties:
-   ```properties
-   rate.limit.window=60000
-   rate.limit.max=100
+
