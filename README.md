@@ -42,4 +42,15 @@ This project implements a Spring Boot backend service with:
   - Sequence of requests.  
   - Concurrency test.  
 
+## Setup Instructions
+
+### 1. Environment Variables
+Before running the application, set the required environment variables:
+
+```bash
+# Linux / macOS
+export JWT_SECRET=your-256-bit-secret
+
+# Windows (PowerShell)
+setx JWT_SECRET "your-256-bit-secret"
 
